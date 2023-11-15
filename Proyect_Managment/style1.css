@@ -1,0 +1,137 @@
+html{
+    display: flex;
+    width: 100%;
+    height: 110%;
+    background: linear-gradient(rgb(0, 105, 128), rgb(13, 81, 116), #121212);
+    justify-content: center;
+
+}
+
+header{ 
+    width: 100%;
+    background-color: rgba(0, 83, 128, 0.481);
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.Screen{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.117);
+    height: 60px;
+    width: 400px;
+    border-radius: 12px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.Screen:hover{
+    background-color: rgba(0, 255, 255, 0.843);
+}
+main{
+    border: solid 2px rgba(19, 92, 195, 0.422);
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.06);
+}
+main:hover{
+    background-color: rgba(0, 255, 255, 0.09);
+
+}
+
+.calc_button_row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 12px;
+
+}
+.calc_button_Low{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.Button_Init{
+    width: 110px;
+    height: 55px;
+    background-color:rgba(7, 113, 219, 0.517);
+    border-radius: 12px;
+
+}
+
+.Button_Row{
+    width: 66px;
+    height: 55px;
+    background-color:#08c0e55f;
+    border-radius: 12px;
+
+}
+.Button_Low{
+    width: 110px;
+    height: 55px;
+    background-color:#08c0e55d;
+    border-radius: 12px;
+
+}
+.Button_Row_Izq{
+    width: 100px;
+    height: 55px;
+    background-color:rgba(7, 113, 219, 0.517);
+    border-radius: 12px;
+
+}
+.Button_Low_Izq{
+    width: 110px;
+    height: 55px;
+    background-color:rgba(7, 113, 219, 0.517);
+    border-radius: 12px;
+
+}
+.Button_Row:hover{
+    background-color: #08c0e5;
+}
+.Button_Row:active{
+    background-color: #054452;
+    color: aliceblue;
+}
+
+.Button_Low:hover{
+    background-color: #08c0e5;
+}
+.Button_Low:active{
+    background-color: #054452;
+    color: aliceblue;
+}
+.Button_Init:hover{
+    background-color:rgb(5, 127, 250);
+}
+.Button_Init:active{
+    background-color:rgba(22, 70, 118, 0.517);
+    color: aliceblue;
+}
+.Button_Row_Izq:hover{
+    background-color:rgb(5, 127, 250);
+}
+.Button_Row_Izq:active{
+    background-color:rgba(22, 70, 118, 0.517);
+    color: aliceblue;
+}
+.Button_Low_Izq:hover{
+    background-color:rgb(5, 127, 250);
+}
+.Button_Low_Izq:active{
+    background-color:rgba(22, 70, 118, 0.517);
+    color: aliceblue;
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 45px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 25px;
+}
